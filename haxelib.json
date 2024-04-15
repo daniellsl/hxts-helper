@@ -1,0 +1,15 @@
+{
+    "name": "hxts-helpers",
+    "license": "MIT",
+    "tags": [],
+    "classPath": "src",
+    "contributors": [
+      "daniellsl"
+    ],
+    "releasenote": "initial release",
+    "version": "0.0.0",
+    "dependencies": {
+      "tink_json": "",
+      "tink_chunk": ""
+    }
+  }

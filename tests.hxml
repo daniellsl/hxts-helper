@@ -1,0 +1,13 @@
+-cp tests
+-main RunTests
+
+-dce full
+
+-lib tink_json
+-lib tink_unittest
+-lib hxnodejs
+-lib genes
+
+-D dts
+-D analyzer-optimize
+-D no-deprecation-warnings
