@@ -1,5 +1,6 @@
 package hxts.helpers;
 
+import tink.Chunk;
 using tink.CoreApi;
 
 class TinkJsonTools {
@@ -18,5 +19,9 @@ class TinkJsonTools {
 				case _: Success(str);
 			}
 		}
+	}
+
+	public static function parseChunk(str:String):Chunk {
+		return tink.Json.parse(str);
 	}
 }

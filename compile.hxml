@@ -3,6 +3,7 @@ hxts.helpers.TinkJsonTools
 -js bin/hxts-utils/index.js
 
 -lib tink_json
+-lib tink_chunk
 -lib hxnodejs
 -lib genes
 
