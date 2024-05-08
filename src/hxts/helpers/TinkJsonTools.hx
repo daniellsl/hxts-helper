@@ -21,6 +21,10 @@ class TinkJsonTools {
 		}
 	}
 
+	public static function stringifyChunk(chunk:Chunk):String {
+		return tink.Json.stringify(chunk);
+	}
+
 	public static function parseChunk(str:String):Chunk {
 		return tink.Json.parse(str);
 	}
