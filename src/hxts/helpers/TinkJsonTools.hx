@@ -11,7 +11,7 @@ class TinkJsonTools {
 		 else if (hex.length % 2 != 0)
 			Failure(new Error('Non-even number of characters'));
 		else {
-			final str:String = tink.Json.stringify(haxe.io.Bytes.ofString(hex));
+			final str:String = tink.Json.stringify(haxe.io.Bytes.ofHex(hex));
 
 			switch [str.charAt(0), str.charAt(str.length - 1)] {
 				case ['"', '"']: Success(str.substring(1, str.length - 1));
