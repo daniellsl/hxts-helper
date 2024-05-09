@@ -25,7 +25,7 @@ class TinkJsonTools {
 		return tink.Json.stringify(chunk);
 	}
 
-	public static function parseChunk(str:String):Chunk {
+	public static function chunkifyString(str:String):Chunk {
 		return tink.Json.parse(str);
 	}
 }
