@@ -1,5 +1,5 @@
 -cp src
-hxts.helpers.TinkJsonTools
+hxts.Helpers
 -js bin/hxts-utils/index.js
 
 -lib tink_json
